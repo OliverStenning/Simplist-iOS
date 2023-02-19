@@ -1,8 +1,16 @@
-//
-//  ShoppingListView.swift
-//  Simplist
-//
-//  Created by Oliver Stenning on 19/02/2023.
-//
+import SwiftUI
 
-import Foundation
+struct ShoppingListView: View {
+    
+    let shoppingList: ShoppingList
+    
+    var body: some View {
+        Text(shoppingList.name)
+    }
+}
+
+struct ShoppingListView_Previews: PreviewProvider {
+    static var previews: some View {
+        ShoppingListView(shoppingList: .mock())
+    }
+}

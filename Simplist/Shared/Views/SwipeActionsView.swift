@@ -1,8 +1,17 @@
-//
-//  SwipeActionsView.swift
-//  Simplist
-//
-//  Created by Oliver Stenning on 19/02/2023.
-//
+import SwiftUI
 
-import Foundation
+struct SwipeActionsView: View {
+    
+    var deleteAction: () -> Void
+    var editAction: () -> Void
+    
+    var body: some View {
+        Button(role: .destructive, action: deleteAction) {
+            Label("Delete", systemImage: "trash.fill")
+        }
+        Button(action: editAction) {
+            Label("Edit", systemImage: "pencil")
+        }
+        .tint(.accentColor)
+    }
+}

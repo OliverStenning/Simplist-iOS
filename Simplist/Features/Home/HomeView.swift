@@ -1,15 +1,19 @@
-//
-//  HomeView.swift
-//  Simplist
-//
-//  Created by Oliver Stenning on 19/02/2023.
-//
-
 import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                ShoppingListSectionView()
+            }
+            .navigationTitle("Simplist")
+            .navigationDestination(for: Route.self) { route in
+                switch route {
+                case let .shoppingList(shoppingList):
+                    ShoppingListView(shoppingList: shoppingList)
+                }
+            }
+        }
     }
 }
 

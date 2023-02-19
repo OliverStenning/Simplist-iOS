@@ -18,6 +18,15 @@
 		F2BC9DB7299EEBE000DF7A87 /* ShoppingList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC9DB3299EEBE000DF7A87 /* ShoppingList+CoreDataClass.swift */; };
 		F2BC9DB8299EEBE000DF7A87 /* ShoppingList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC9DB4299EEBE000DF7A87 /* ShoppingList+CoreDataProperties.swift */; };
 		F2BC9DBA299EEE4500DF7A87 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC9DB9299EEE4500DF7A87 /* DetailView.swift */; };
+		F2E302E029A1B0DE005EDFA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302DF29A1B0DE005EDFA3 /* HomeView.swift */; };
+		F2E302E229A1B1B5005EDFA3 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302E129A1B1B5005EDFA3 /* Navigation.swift */; };
+		F2E302E429A1B202005EDFA3 /* ShoppingListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302E329A1B202005EDFA3 /* ShoppingListSectionView.swift */; };
+		F2E302E629A1B2BC005EDFA3 /* AddListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302E529A1B2BC005EDFA3 /* AddListRowView.swift */; };
+		F2E302E829A1B311005EDFA3 /* ShoppingListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302E729A1B311005EDFA3 /* ShoppingListRowView.swift */; };
+		F2E302EA29A1B39D005EDFA3 /* ShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302E929A1B39D005EDFA3 /* ShoppingListView.swift */; };
+		F2E302EC29A1B568005EDFA3 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302EB29A1B568005EDFA3 /* SwipeActionsView.swift */; };
+		F2E302EE29A1B65C005EDFA3 /* AddShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302ED29A1B65C005EDFA3 /* AddShoppingListView.swift */; };
+		F2E302F029A1B8A3005EDFA3 /* EditShoppingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E302EF29A1B8A3005EDFA3 /* EditShoppingListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +37,21 @@
 		F26E594229994DDF0098CB4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F26E594429994DDF0098CB4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F26E594729994DDF0098CB4D /* Simplist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simplist.xcdatamodel; sourceTree = "<group>"; };
-		F2B47DFB299AEFCA001B2DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2B47DFB299AEFCA001B2DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2BC9DB1299EEBE000DF7A87 /* ShoppingItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F2BC9DB2299EEBE000DF7A87 /* ShoppingItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F2BC9DB3299EEBE000DF7A87 /* ShoppingList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingList+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F2BC9DB4299EEBE000DF7A87 /* ShoppingList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F2BC9DB9299EEE4500DF7A87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F2E302DF29A1B0DE005EDFA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2E302E129A1B1B5005EDFA3 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		F2E302E329A1B202005EDFA3 /* ShoppingListSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListSectionView.swift; sourceTree = "<group>"; };
+		F2E302E529A1B2BC005EDFA3 /* AddListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListRowView.swift; sourceTree = "<group>"; };
+		F2E302E729A1B311005EDFA3 /* ShoppingListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShoppingListRowView.swift; path = Simplist/Features/Home/ShoppingListRowView.swift; sourceTree = SOURCE_ROOT; };
+		F2E302E929A1B39D005EDFA3 /* ShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListView.swift; sourceTree = "<group>"; };
+		F2E302EB29A1B568005EDFA3 /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		F2E302ED29A1B65C005EDFA3 /* AddShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShoppingListView.swift; sourceTree = "<group>"; };
+		F2E302EF29A1B8A3005EDFA3 /* EditShoppingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditShoppingListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +84,14 @@
 		F26E593A29994DDD0098CB4D /* Simplist */ = {
 			isa = PBXGroup;
 			children = (
-				F2B47DFB299AEFCA001B2DE3 /* Info.plist */,
-				F26E593B29994DDD0098CB4D /* SimplistApp.swift */,
+				F2E302DC29A1B08D005EDFA3 /* App */,
 				F26E593D29994DDD0098CB4D /* ContentView.swift */,
-				F2BC9DB9299EEE4500DF7A87 /* DetailView.swift */,
-				F26E593F29994DDF0098CB4D /* Assets.xcassets */,
-				F26E594429994DDF0098CB4D /* Persistence.swift */,
-				F26E594629994DDF0098CB4D /* Simplist.xcdatamodeld */,
 				F2BC9D9F299EE9E800DF7A87 /* Data */,
+				F2BC9DB9299EEE4500DF7A87 /* DetailView.swift */,
+				F2E302D929A1B05F005EDFA3 /* Features */,
 				F26E594129994DDF0098CB4D /* Preview Content */,
+				F2E302DE29A1B0AB005EDFA3 /* Resources */,
+				F2E302D729A1B049005EDFA3 /* Shared */,
 			);
 			path = Simplist;
 			sourceTree = "<group>";
@@ -90,6 +107,7 @@
 		F2BC9D9F299EE9E800DF7A87 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F2E302DD29A1B09F005EDFA3 /* CoreData */,
 				F2BC9DA0299EE9FB00DF7A87 /* Models */,
 			);
 			path = Data;
@@ -104,6 +122,79 @@
 				F2BC9DB4299EEBE000DF7A87 /* ShoppingList+CoreDataProperties.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F2E302D729A1B049005EDFA3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F2E302D829A1B052005EDFA3 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F2E302D829A1B052005EDFA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2E302E529A1B2BC005EDFA3 /* AddListRowView.swift */,
+				F2E302EB29A1B568005EDFA3 /* SwipeActionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2E302D929A1B05F005EDFA3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F2E302DA29A1B066005EDFA3 /* Home */,
+				F2E302DB29A1B080005EDFA3 /* ShoppingList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F2E302DA29A1B066005EDFA3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2E302DF29A1B0DE005EDFA3 /* HomeView.swift */,
+				F2E302E329A1B202005EDFA3 /* ShoppingListSectionView.swift */,
+				F2E302E729A1B311005EDFA3 /* ShoppingListRowView.swift */,
+				F2E302ED29A1B65C005EDFA3 /* AddShoppingListView.swift */,
+				F2E302EF29A1B8A3005EDFA3 /* EditShoppingListView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F2E302DB29A1B080005EDFA3 /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				F2E302E929A1B39D005EDFA3 /* ShoppingListView.swift */,
+			);
+			path = ShoppingList;
+			sourceTree = "<group>";
+		};
+		F2E302DC29A1B08D005EDFA3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F2B47DFB299AEFCA001B2DE3 /* Info.plist */,
+				F26E593B29994DDD0098CB4D /* SimplistApp.swift */,
+				F2E302E129A1B1B5005EDFA3 /* Navigation.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F2E302DD29A1B09F005EDFA3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F26E594429994DDF0098CB4D /* Persistence.swift */,
+				F26E594629994DDF0098CB4D /* Simplist.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F2E302DE29A1B0AB005EDFA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F26E593F29994DDF0098CB4D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,10 +267,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E302E429A1B202005EDFA3 /* ShoppingListSectionView.swift in Sources */,
 				F26E594529994DDF0098CB4D /* Persistence.swift in Sources */,
 				F26E593E29994DDD0098CB4D /* ContentView.swift in Sources */,
+				F2E302E829A1B311005EDFA3 /* ShoppingListRowView.swift in Sources */,
 				F2BC9DB5299EEBE000DF7A87 /* ShoppingItem+CoreDataClass.swift in Sources */,
+				F2E302EE29A1B65C005EDFA3 /* AddShoppingListView.swift in Sources */,
+				F2E302EC29A1B568005EDFA3 /* SwipeActionsView.swift in Sources */,
+				F2E302E229A1B1B5005EDFA3 /* Navigation.swift in Sources */,
+				F2E302E629A1B2BC005EDFA3 /* AddListRowView.swift in Sources */,
+				F2E302E029A1B0DE005EDFA3 /* HomeView.swift in Sources */,
 				F26E594829994DDF0098CB4D /* Simplist.xcdatamodeld in Sources */,
+				F2E302EA29A1B39D005EDFA3 /* ShoppingListView.swift in Sources */,
+				F2E302F029A1B8A3005EDFA3 /* EditShoppingListView.swift in Sources */,
 				F2BC9DB6299EEBE000DF7A87 /* ShoppingItem+CoreDataProperties.swift in Sources */,
 				F2BC9DB7299EEBE000DF7A87 /* ShoppingList+CoreDataClass.swift in Sources */,
 				F26E593C29994DDD0098CB4D /* SimplistApp.swift in Sources */,
@@ -316,7 +416,7 @@
 				DEVELOPMENT_TEAM = 36LYYU944F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Simplist/Info.plist;
+				INFOPLIST_FILE = Simplist/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -345,7 +445,7 @@
 				DEVELOPMENT_TEAM = 36LYYU944F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Simplist/Info.plist;
+				INFOPLIST_FILE = Simplist/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
